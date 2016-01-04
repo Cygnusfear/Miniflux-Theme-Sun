@@ -1,6 +1,17 @@
 
-@import url(http://fonts.googleapis.com/css?family=PT+Sans);
-@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+@font-face {
+  font-family: 'PT Sans';
+     src: url("../fonts/PT_Sans-Web-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Serif';
+     src: url("../fonts/PT_Serif-Web-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @-ms-viewport { width: device-width; }
 figure,
@@ -552,7 +563,7 @@ nav .active a {
 .items #current-item .preview {
     display:block;
     color: #aaa;
-    max-height: 100px;
+    max-height: 999999px;
     -webkit-transition: max-height 0.2s;
 }
 
