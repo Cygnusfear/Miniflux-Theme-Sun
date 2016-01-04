@@ -563,8 +563,8 @@ nav .active a {
 .items #current-item .preview {
     display:block;
     color: #aaa;
-    max-height: 999999px;
-    -webkit-transition: max-height 0.2s;
+    max-height: 1000px;
+    -webkit-transition: max-height 1s;
 }
 
 .items article[data-item-status="read"] h2 a {
